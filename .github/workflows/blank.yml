@@ -33,3 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
          pwd 
+         touch ans
+         git add .
+         git commit -m "wdwb"
+         git push origin master
